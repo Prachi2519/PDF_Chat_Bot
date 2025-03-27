@@ -9,7 +9,7 @@
 # # # chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
 # # # collection = chroma_client.get_or_create_collection("pdf_embeddings")
 
-# # # def delete_existing_embeddings(pdf_name):
+# # # def delete_existing_embeddings(pdf_name):    km
 # # #     """Deletes embeddings associated with a specific PDF to avoid duplicates."""
 # # #     existing_data = collection.get()
 # # #     existing_ids = [doc_id for doc_id in existing_data["ids"] if pdf_name in doc_id]
