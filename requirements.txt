@@ -5,4 +5,4 @@ PyMuPDF
 tiktoken
 python-dotenv
 matplotlib
-plotly
+plotly   
