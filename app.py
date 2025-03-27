@@ -125,7 +125,7 @@ if uploaded_file:
 query = st.text_input("Ask a question:")
 
 if query:
-    answer, temp_file = generate_answer_with_visualization(query)
+    answer, temp_file = generate_answer_with_visualization(query +" and define all term and finiancial data")
 
     # Display textual answer
     st.write("### Answer:")
